@@ -13,4 +13,5 @@ mongoose.connect(connectionString, configOptions)
 
 module.exports = {
     Pins: require('./PinLocations'),
+    Cities: require('./Cities')
 }
